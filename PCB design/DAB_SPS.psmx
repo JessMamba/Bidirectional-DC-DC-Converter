@@ -1,0 +1,51 @@
+<Project name="DAB_SPS">
+  <hierarchy />
+  <messagelist>
+    <message status="warning" label="validation">
+      <Definition scope="DAB_SPS" name="Main" status="warning" link="63" /><![CDATA[Definition 'Main' has an invalid crc value, it may be corrupt.]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Generating network and source code 'C:\Users\jraza\Desktop\EEM Dersleri\4th year\2nd SEMESTER\Bitirme Projesi\Bitirme\DAB_SPS.gf42\Main.f'.]]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:peswitch" status="warning" link="1627317724" /><![CDATA[Signal 'RT_4' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:peswitch" status="warning" link="1641961249" /><![CDATA[Signal 'RT_2' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:peswitch" status="warning" link="592618290" /><![CDATA[Signal 'RT_3' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:peswitch" status="warning" link="1244354615" /><![CDATA[Signal 'RT_5' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:inv" status="warning" link="1945625496" /><![CDATA[Signal 'T11' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:peswitch" status="warning" link="1200308351" /><![CDATA[Signal 'T11' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="warning" label="build">
+      <User scope="DAB_SPS" name="master:peswitch" status="warning" link="772316877" /><![CDATA[Signal 'T11' type conversion may lose accuracy at connection 'APUL']]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Generating 'C:\Users\jraza\Desktop\EEM Dersleri\4th year\2nd SEMESTER\Bitirme Projesi\Bitirme\DAB_SPS.gf42\DAB_SPS.map'.]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Time for Compile: 172ms  Make: 109ms]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Solve Time = 16ms]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Will execute: call C:\Program Files (x86)\GFortran\4.2.1\bin\gf42vars.bat]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Will execute: make -f DAB_SPS.mak]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Will execute: C:\Users\jraza\Desktop\EEMDER~1\4THYEA~1\2NDSEM~1\BITIRM~1\Bitirme\DAB_SP~1.GF4\\DAB_SPS.bat]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[C:\Users\jraza\Desktop\EEM Dersleri\4th year\2nd SEMESTER\Bitirme Projesi\Bitirme\DAB_SPS.gf42>call C:\PROGRA~2\GFortran\428484~1.1\bin\gf42vars.bat ]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Compiling generated source 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="DAB_SPS"><![CDATA[Linking object code and libraries into binary 'DAB_SPS.exe']]></message>
+  </messagelist>
+  <emt>
+    <netlist name="Station" call_count="1" ss_count="0">
+      <signals>
+        <signal name="GND" dim="1" ss_id="0" node_map_count="1" local_storage_index="0">
+          <sg_points />
+          <node_number global="0" sg_local="0" sg_callindex="0" />
+        </signal>
+      </signals>
+      <components>
+        <component id="1476090060" />
+      </components>
+    </netlist>
+  </emt>
+  <views>
+    <view name="Main" zoomlevel="5" scrollx="1402" scrolly="758" />
+  </views>
+  <catalog>
+    <group name="(No Label)" />
+  </catalog>
+</Project>

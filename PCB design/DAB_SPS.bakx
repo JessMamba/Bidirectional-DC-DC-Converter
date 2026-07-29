@@ -1,0 +1,3259 @@
+<project name="DAB_SPS" version="4.5.0" schema="0" Target="EMTDC">
+  <paramlist name="Settings">
+    <param name="creator" value="monster,1742063774" />
+    <param name="time_duration" value="0.5" />
+    <param name="time_step" value="0.5" />
+    <param name="sample_step" value="0.5" />
+    <param name="chatter_threshold" value=".001" />
+    <param name="branch_threshold" value=".0005" />
+    <param name="StartType" value="0" />
+    <param name="PlotType" value="0" />
+    <param name="output_filename" value="noname.out" />
+    <param name="SnapType" value="0" />
+    <param name="SnapTime" value="0.3" />
+    <param name="snapshot_filename" value="noname.snp" />
+    <param name="MrunType" value="0" />
+    <param name="Mruns" value="10" />
+    <param name="Scenario" value="" />
+    <param name="Advanced" value="10239" />
+    <param name="Options" value="16" />
+    <param name="Build" value="18" />
+    <param name="Warn" value="0" />
+    <param name="Check" value="0" />
+    <param name="description" value="" />
+    <param name="revisor" value="jraza, 1783267351" />
+  </paramlist>
+  <paramlist name="Validation">
+    <param name="Station" value="invalid_crc" />
+    <param name="Main" value="invalid_crc" />
+  </paramlist>
+  <hierarchy>
+    <call name="Station" link="1381702503" z="0" instance="-1" view="false">
+      <call name="Main" link="1476090060" z="0" view="true" instance="0" />
+    </call>
+  </hierarchy>
+  <definitions>
+    <Definition classid="StationDefn" name="Station" group="" url="" version="" build="" crc="80583888" instances="1" key="" view="false">
+      <paramlist name="">
+        <param name="Description" value="" />
+      </paramlist>
+      <schematic classid="StationCanvas">
+        <paramlist>
+          <param name="show_grid" value="0" />
+          <param name="size" value="0" />
+          <param name="orient" value="1" />
+          <param name="show_border" value="0" />
+          <param name="bus_expand_x" value="8" />
+          <param name="bus_expand_y" value="8" />
+          <param name="bus_length" value="4" />
+        </paramlist>
+        <Wire classid="WireBranch" name="dab:Main" x="180" y="180" w="62" h="80" orient="0" defn="DAB_SPS:Main" id="1476090060" recv="-1" send="-1" back="-1">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+          <vertex x="54" y="54" />
+          <vertex x="54" y="72" />
+          <User classid="UserCmp" name="dab:Main" id="1476090060" x="0" y="0" w="0" h="0" z="-1" orient="0" defn="DAB_SPS:Main" link="1476090060">
+            <paramlist link="-1" name="" />
+            <paramlist link="986746270" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="3.5" />
+            </paramlist>
+            <paramlist link="1574748575" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="140" />
+            </paramlist>
+            <paramlist link="504807825" name="">
+              <param name="xmin" value="1.9986" />
+              <param name="xmax" value="2" />
+            </paramlist>
+            <paramlist link="216726029" name="">
+              <param name="ymin" value="-60" />
+              <param name="ymax" value="50" />
+            </paramlist>
+            <paramlist link="701223521" name="">
+              <param name="ymin" value="-300" />
+              <param name="ymax" value="300" />
+            </paramlist>
+            <paramlist link="1497972890" name="">
+              <param name="ymin" value="-200" />
+              <param name="ymax" value="200" />
+            </paramlist>
+            <paramlist link="2072142006" name="">
+              <param name="ymin" value="-30" />
+              <param name="ymax" value="30" />
+            </paramlist>
+            <paramlist link="236273543" name="">
+              <param name="ymin" value="-400" />
+              <param name="ymax" value="400" />
+            </paramlist>
+            <paramlist link="339257300" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="2.25" />
+            </paramlist>
+            <paramlist link="629436679" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="10" />
+            </paramlist>
+            <paramlist link="1143949450" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="2" />
+            </paramlist>
+            <paramlist link="245658031" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="160" />
+            </paramlist>
+            <paramlist link="1604550105" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="1343649837" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1856771422" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1646179913" name="">
+              <param name="xmin" value="2.86" />
+              <param name="xmax" value="2.96" />
+            </paramlist>
+            <paramlist link="691949989" name="">
+              <param name="ymin" value="-40" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="1634044649" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="1448354473" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="802844756" name="">
+              <param name="xmin" value="2.94" />
+              <param name="xmax" value="3" />
+            </paramlist>
+            <paramlist link="1789772642" name="">
+              <param name="ymin" value="-5" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="279856440" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="492616247" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="597283487" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="723335465" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="748738726" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1402527625" name="">
+              <param name="xmin" value="2e-005" />
+              <param name="xmax" value="0.00018" />
+            </paramlist>
+            <paramlist link="461788456" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="252493351" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1220123413" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1311843261" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="377644450" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.00045" />
+            </paramlist>
+            <paramlist link="1127281983" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="846196741" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="3" />
+            </paramlist>
+            <paramlist link="2137643192" name="">
+              <param name="ymin" value="-300" />
+              <param name="ymax" value="200" />
+            </paramlist>
+            <paramlist link="585967151" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="160" />
+            </paramlist>
+            <paramlist link="1175009901" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="339257300" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="629436679" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="10" />
+            </paramlist>
+            <paramlist link="585967151" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="400" />
+            </paramlist>
+            <paramlist link="1175009901" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1289631388" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="601904458" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="2" />
+            </paramlist>
+            <paramlist link="1708814016" name="">
+              <param name="ymin" value="-60" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="2120769708" name="">
+              <param name="ymin" value="229.9" />
+              <param name="ymax" value="230.1" />
+            </paramlist>
+            <paramlist link="2026865608" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="302128685" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="658728235" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="939761819" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="302128685" name="">
+              <param name="xmin" value="0.2004" />
+              <param name="xmax" value="0.2012" />
+            </paramlist>
+            <paramlist link="939761819" name="">
+              <param name="ymin" value="-15" />
+              <param name="ymax" value="25" />
+            </paramlist>
+            <paramlist link="1465426009" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1528440840" name="">
+              <param name="xmin" value="1.9964" />
+              <param name="xmax" value="1.998" />
+            </paramlist>
+            <paramlist link="321258908" name="">
+              <param name="ymin" value="-60" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="939759514" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1244647858" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="2.25" />
+            </paramlist>
+            <paramlist link="1161372020" name="">
+              <param name="ymin" value="69.9" />
+              <param name="ymax" value="70.1" />
+            </paramlist>
+            <paramlist link="1357533284" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="581458995" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="1565683986" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="97352453" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="339257300" name="">
+              <param name="xmin" value="-0.1" />
+              <param name="xmax" value="0.7" />
+            </paramlist>
+            <paramlist link="585967151" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="1.99419e+267" />
+            </paramlist>
+            <paramlist link="1402527625" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.00012" />
+            </paramlist>
+            <paramlist link="461788456" name="">
+              <param name="ymin" value="-2.5" />
+              <param name="ymax" value="2.5" />
+            </paramlist>
+            <paramlist link="252493351" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1220123413" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1311843261" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1506671824" name="">
+              <param name="xmin" value="0.49994" />
+              <param name="xmax" value="0.50001" />
+            </paramlist>
+            <paramlist link="1504377560" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="225" />
+            </paramlist>
+            <paramlist link="909748865" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1310659861" name="">
+              <param name="xmin" value="0.99988" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="633050581" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="633050581" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="200" />
+            </paramlist>
+            <paramlist link="1779608788" name="">
+              <param name="ymin" value="-10" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="825236197" name="">
+              <param name="ymin" value="-20" />
+              <param name="ymax" value="140" />
+            </paramlist>
+            <paramlist link="330024077" name="">
+              <param name="ymin" value="-20" />
+              <param name="ymax" value="160" />
+            </paramlist>
+            <paramlist link="167052717" name="">
+              <param name="ymin" value="-50" />
+              <param name="ymax" value="300" />
+            </paramlist>
+            <paramlist link="344936541" name="">
+              <param name="ymin" value="-50" />
+              <param name="ymax" value="250" />
+            </paramlist>
+            <paramlist link="1012013121" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.12" />
+            </paramlist>
+            <paramlist link="1601206107" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="500" />
+            </paramlist>
+            <paramlist link="618589763" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.16" />
+            </paramlist>
+            <paramlist link="434793266" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="593786041" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="442352220" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1115392765" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="133442429" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1002681948" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="663918158" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1779928283" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1632750747" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="329948053" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="6036974" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1077464251" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1002681948" name="">
+              <param name="xmin" value="0.00651" />
+              <param name="xmax" value="0.0066" />
+            </paramlist>
+            <paramlist link="663918158" name="">
+              <param name="ymin" value="-0.1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1779928283" name="">
+              <param name="ymin" value="-0.5" />
+              <param name="ymax" value="2.5" />
+            </paramlist>
+            <paramlist link="1632750747" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="6" />
+            </paramlist>
+            <paramlist link="329948053" name="">
+              <param name="ymin" value="-30" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="6036974" name="">
+              <param name="ymin" value="-80" />
+              <param name="ymax" value="100" />
+            </paramlist>
+            <paramlist link="1077464251" name="">
+              <param name="ymin" value="-200" />
+              <param name="ymax" value="200" />
+            </paramlist>
+            <paramlist link="1402527625" name="">
+              <param name="xmin" value="0.05" />
+              <param name="xmax" value="0.05018" />
+            </paramlist>
+            <paramlist link="461788456" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="252493351" name="">
+              <param name="ymin" value="-6" />
+              <param name="ymax" value="12" />
+            </paramlist>
+            <paramlist link="1220123413" name="">
+              <param name="ymin" value="-1.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1311843261" name="">
+              <param name="ymin" value="-2.5" />
+              <param name="ymax" value="2.5" />
+            </paramlist>
+            <paramlist link="695567925" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.006" />
+            </paramlist>
+            <paramlist link="808965813" name="">
+              <param name="ymin" value="-60" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="1758556279" name="">
+              <param name="ymin" value="-50" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="680898874" name="">
+              <param name="ymin" value="-100" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="981161024" name="">
+              <param name="ymin" value="-200" />
+              <param name="ymax" value="150" />
+            </paramlist>
+            <paramlist link="100366849" name="">
+              <param name="ymin" value="-250" />
+              <param name="ymax" value="200" />
+            </paramlist>
+            <paramlist link="43914830" name="">
+              <param name="ymin" value="-400" />
+              <param name="ymax" value="400" />
+            </paramlist>
+            <paramlist link="1409084853" name="">
+              <param name="xmin" value="0.0268" />
+              <param name="xmax" value="0.02692" />
+            </paramlist>
+            <paramlist link="740653833" name="">
+              <param name="ymin" value="-100" />
+              <param name="ymax" value="500" />
+            </paramlist>
+            <paramlist link="2044998457" name="">
+              <param name="ymin" value="-20" />
+              <param name="ymax" value="160" />
+            </paramlist>
+            <paramlist link="1923136131" name="">
+              <param name="ymin" value="-25" />
+              <param name="ymax" value="225" />
+            </paramlist>
+            <paramlist link="986966470" name="">
+              <param name="ymin" value="-50" />
+              <param name="ymax" value="350" />
+            </paramlist>
+            <paramlist link="1120431939" name="">
+              <param name="ymin" value="-50" />
+              <param name="ymax" value="400" />
+            </paramlist>
+            <paramlist link="1573590337" name="">
+              <param name="ymin" value="-50" />
+              <param name="ymax" value="450" />
+            </paramlist>
+            <paramlist link="902241372" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.2" />
+            </paramlist>
+            <paramlist link="243569286" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="120" />
+            </paramlist>
+            <paramlist link="1002681948" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.5" />
+            </paramlist>
+            <paramlist link="663918158" name="">
+              <param name="ymin" value="-10" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="1779928283" name="">
+              <param name="ymin" value="-200" />
+              <param name="ymax" value="100" />
+            </paramlist>
+            <paramlist link="1632750747" name="">
+              <param name="ymin" value="-40" />
+              <param name="ymax" value="50" />
+            </paramlist>
+            <paramlist link="329948053" name="">
+              <param name="ymin" value="-800" />
+              <param name="ymax" value="400" />
+            </paramlist>
+            <paramlist link="6036974" name="">
+              <param name="ymin" value="-100" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="1077464251" name="">
+              <param name="ymin" value="-1000" />
+              <param name="ymax" value="300" />
+            </paramlist>
+            <paramlist link="1595379001" name="">
+              <param name="ymin" value="-0.00035" />
+              <param name="ymax" value="0.0001" />
+            </paramlist>
+            <paramlist link="1506671824" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.6" />
+            </paramlist>
+            <paramlist link="1504377560" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="200" />
+            </paramlist>
+            <paramlist link="1779608788" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="140" />
+            </paramlist>
+            <paramlist link="825236197" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="250" />
+            </paramlist>
+            <paramlist link="330024077" name="">
+              <param name="ymin" value="-60" />
+              <param name="ymax" value="120" />
+            </paramlist>
+            <paramlist link="167052717" name="">
+              <param name="ymin" value="-20" />
+              <param name="ymax" value="120" />
+            </paramlist>
+            <paramlist link="344936541" name="">
+              <param name="ymin" value="-10" />
+              <param name="ymax" value="70" />
+            </paramlist>
+            <paramlist link="269681266" name="">
+              <param name="ymin" value="-0.0002" />
+              <param name="ymax" value="0.0001" />
+            </paramlist>
+            <paramlist link="945414641" name="">
+              <param name="ymin" value="-0.00035" />
+              <param name="ymax" value="0.0001" />
+            </paramlist>
+            <paramlist link="1398877843" name="">
+              <param name="ymin" value="-0.5" />
+              <param name="ymax" value="1.5" />
+            </paramlist>
+            <paramlist link="1607829232" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="522070015" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1607829232" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1858356709" name="">
+              <param name="xmin" value="0.34465" />
+              <param name="xmax" value="0.34485" />
+            </paramlist>
+            <paramlist link="1745491558" name="">
+              <param name="ymin" value="-25" />
+              <param name="ymax" value="100" />
+            </paramlist>
+            <paramlist link="884383665" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="276645481" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1790124890" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="617925320" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1436273099" name="">
+              <param name="ymin" value="-20" />
+              <param name="ymax" value="140" />
+            </paramlist>
+            <paramlist link="68777305" name="">
+              <param name="ymin" value="-20" />
+              <param name="ymax" value="140" />
+            </paramlist>
+            <paramlist link="695156349" name="">
+              <param name="ymin" value="520" />
+              <param name="ymax" value="680" />
+            </paramlist>
+            <paramlist link="1491337763" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="2142921056" name="" />
+            <paramlist link="1713996966" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="1959479856" name="" />
+            <paramlist link="488764557" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="1477648357" name="" />
+            <paramlist link="1311009037" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="1045143637" name="" />
+            <paramlist link="605238568" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="1008811301" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1266460501" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.5" />
+            </paramlist>
+            <paramlist link="923418686" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="5" />
+            </paramlist>
+            <paramlist link="1170938367" name="">
+              <param name="xmin" value="0.39254" />
+              <param name="xmax" value="0.39266" />
+            </paramlist>
+            <paramlist link="2041700598" name="">
+              <param name="ymin" value="39.1" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="2041700598" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="2041700598" name="">
+              <param name="ymin" value="-30" />
+              <param name="ymax" value="40" />
+            </paramlist>
+            <paramlist link="27365768" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.5" />
+            </paramlist>
+            <paramlist link="423222449" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="90" />
+            </paramlist>
+            <paramlist link="847878520" name="">
+              <param name="xmin" value="0.4353" />
+              <param name="xmax" value="0.4359" />
+            </paramlist>
+            <paramlist link="1460694546" name="">
+              <param name="ymin" value="15.5" />
+              <param name="ymax" value="20" />
+            </paramlist>
+            <paramlist link="1460694546" name="">
+              <param name="ymin" value="7.35" />
+              <param name="ymax" value="7.8" />
+            </paramlist>
+            <paramlist link="294349170" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="2001227962" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1002262591" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="225" />
+            </paramlist>
+            <paramlist link="340606173" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="500" />
+            </paramlist>
+            <paramlist link="381168433" name="">
+              <param name="ymin" value="0" />
+              <param name="ymax" value="500" />
+            </paramlist>
+            <paramlist link="1930607549" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="2041700598" name="">
+              <param name="ymin" value="302.76" />
+              <param name="ymax" value="302.9" />
+            </paramlist>
+            <paramlist link="880762047" name="">
+              <param name="ymin" value="-6" />
+              <param name="ymax" value="10" />
+            </paramlist>
+            <paramlist link="1896929951" name="">
+              <param name="ymin" value="-15" />
+              <param name="ymax" value="10" />
+            </paramlist>
+            <paramlist link="584753747" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="6" />
+            </paramlist>
+            <paramlist link="330024077" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1099878230" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="0.012" />
+            </paramlist>
+            <paramlist link="278400920" name="">
+              <param name="ymin" value="-10" />
+              <param name="ymax" value="60" />
+            </paramlist>
+            <paramlist link="1814530297" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="517805696" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="546230696" name="" />
+            <paramlist link="1158707206" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <paramlist link="1137122654" name="">
+              <param name="xmin" value="0" />
+              <param name="xmax" value="1" />
+            </paramlist>
+            <paramlist link="1138814173" name="">
+              <param name="xmin" value="0.0" />
+              <param name="xmax" value="1.0" />
+            </paramlist>
+            <paramlist link="886118608" name="" />
+          </User>
+        </Wire>
+      </schematic>
+    </Definition>
+    <Definition classid="UserCmpDefn" name="Main" group="" url="" version="" build="" crc="36199001" instances="1" key="" view="false" date="1783265681">
+      <paramlist name="">
+        <param name="Description" value="" />
+      </paramlist>
+      <form name="" w="320" h="400" splitter="60">
+        <category name="Global Substitutions" />
+      </form>
+      <svg viewBox="-200 -200 200 200">
+        <rect x="-36" y="-36" width="72" height="72" stroke="Black" stroke-dasharray="none" stroke-width="0.2" fill-style="Hollow" fill-fg="" fill-bg="" />
+        <text x="0" y="0" stroke="Black" fill="Black" font-size="Small"><![CDATA[%:Name]]></text>
+      </svg>
+      <schematic classid="UserCanvas">
+        <User classid="UserCmp" name="master:pgb" id="703009163" x="1818" y="1044" w="36" h="37" z="290" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Iin" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <paramlist>
+          <param name="show_grid" value="0" />
+          <param name="size" value="3" />
+          <param name="orient" value="1" />
+          <param name="show_border" value="0" />
+          <param name="monitor_bus_voltage" value="0" />
+          <param name="show_signal" value="0" />
+          <param name="show_virtual" value="0" />
+          <param name="show_sequence" value="0" />
+          <param name="auto_sequence" value="1" />
+        </paramlist>
+        <Wire classid="WireOrthogonal" name="" x="1584" y="1368" w="98" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="90" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="936" y="1044" w="116" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-108" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="864" y="1224" w="8" h="188" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-180" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="882" y="1368" w="80" h="206" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-72" y="0" />
+          <vertex x="-72" y="-198" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="882" y="1368" w="710" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="702" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="864" y="1278" w="8" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-54" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="864" y="1314" w="8" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="54" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="277142183" x="864" y="1278" w="16" h="38" z="380" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:ground" id="1312599940" x="882" y="1368" w="20" h="26" z="0" orient="1" defn="master:ground" link="-1">
+          <paramlist link="-1" name="" />
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1044" y="1026" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:annotation" id="454790962" x="1746" y="1206" w="80" h="17" z="1" orient="0" defn="master:annotation" link="-1">
+          <paramlist link="-1" name="">
+            <param name="AL1" value="tasiyici_sinyali" />
+            <param name="AL2" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1782" y="1260" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:datalabel" id="576665876" x="1818" y="1260" w="16" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="ref" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:pgb" id="405409663" x="1818" y="1260" w="37" h="36" z="410" orient="3" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="TTT" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1.0" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:signalgen" id="897159731" x="1746" y="1260" w="65" h="56" z="400" orient="0" link="-1">
+          <paramlist link="-1" name="">
+            <param name="F" value="50 [kHz]" />
+            <param name="P" value="0 [deg]" />
+            <param name="Type" value="1" />
+            <param name="Duty" value="50 [%]" />
+            <param name="Max" value="1" />
+            <param name="Min" value="0" />
+            <param name="INTR" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:pgb" id="1417329569" x="630" y="1566" w="39" h="37" z="480" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS2" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1355266164" x="558" y="1566" w="28" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1566" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="772316877" x="1278" y="1098" w="38" h="41" z="690" orient="1" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="3" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="0" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:peswitch" id="564975838" x="1314" y="1080" w="38" h="20" z="1" orient="7" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="0" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="1" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1314" y="1098" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="1641961249" x="1098" y="1026" w="38" h="41" z="110" orient="3" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="3" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="0" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:peswitch" id="726175528" x="1062" y="1044" w="38" h="20" z="1" orient="5" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="0" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="1" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1062" y="1026" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="742291012" x="1206" y="1026" w="38" h="24" z="140" orient="0" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL2" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:ammeter" id="1379182688" x="1206" y="918" w="38" h="24" z="30" orient="0" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS1" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:voltmeter" id="1260755996" x="1674" y="1188" w="18" h="38" z="370" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VH" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1836" y="1170" w="62" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="54" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:compar" id="1944345309" x="1890" y="1170" w="79" h="60" z="640" orient="0" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Pulse" value="0" />
+            <param name="INTR" value="0" />
+            <param name="OPos" value="1" />
+            <param name="ONone" value="0" />
+            <param name="ONeg" value="1" />
+            <param name="OHi" value="1" />
+            <param name="OLo" value="0" />
+            <param name="conv" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:const" id="1916534082" x="1728" y="1170" w="67" h="17" z="350" orient="0" defn="master:const" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="" />
+            <param name="Value" value="0.57" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1998" y="1170" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <Sticky classid="Sticky" x="1872" y="1080" w="108" h="36" colors="0, 15792890">
+          <paramlist>
+            <param name="font" value="2" />
+            <param name="align" value="1" />
+            <param name="style" value="1" />
+            <param name="fg_color" value="0" />
+            <param name="bg_color" value="15792890" />
+            <param name="arrows" value="3" />
+          </paramlist><![CDATA[PWM]]></Sticky>
+        <Wire classid="WireOrthogonal" name="" x="1962" y="1170" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1854" y="1206" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:datalabel" id="1429296991" x="1854" y="1206" w="16" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="ref" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1764" y="1170" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="5215438" x="1836" y="1170" w="37" h="46" z="360" orient="3" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="tasiyci" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1.0" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:pgb" id="2008461389" x="2070" y="1170" w="36" h="37" z="670" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="T11" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1.0" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="948153433" x="2052" y="1170" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="T11" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1800" y="1170" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1359479225" x="630" y="1512" w="39" h="37" z="460" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS3" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1018422373" x="558" y="1512" w="28" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS3" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1512" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1759475084" x="630" y="1620" w="39" h="37" z="510" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS1" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="4097752" x="558" y="1620" w="28" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1620" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1820985330" x="630" y="1674" w="36" h="37" z="540" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vc2" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1316289957" x="558" y="1674" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vc2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1674" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1863945822" x="630" y="1728" w="36" h="37" z="560" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vc1" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1589163451" x="558" y="1728" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vc1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1728" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <Frame classid="GraphFrame" id="618589763" name="frame" x="2196" y="918" w="576" h="288" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="x" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="618589763" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="434793266" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="0.100000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="434793266" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="TTT" link="405409663" color="0" bold="-1" show="255" mode="0" />
+            <Curve classid="Curve" name="tasiyci" link="5215438" color="0" bold="-1" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <User classid="UserCmp" name="master:pgb" id="1066865938" x="2484" y="1620" w="36" h="37" z="590" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL2" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="901246146" x="2412" y="1620" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2412" y="1620" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="977696398" x="2484" y="1512" w="36" h="37" z="550" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL1" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="896873301" x="2412" y="1512" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2412" y="1512" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1584603529" x="2484" y="1566" w="36" h="37" z="570" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL2" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="2084073778" x="2412" y="1566" w="18" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2412" y="1566" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="142826118" x="2484" y="1674" w="36" h="37" z="610" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL3" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1008646333" x="2412" y="1674" w="18" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL3" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2412" y="1674" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1047408924" x="2484" y="1728" w="36" h="37" z="630" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL3" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="2082903938" x="2412" y="1728" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL3" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2412" y="1728" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="846479225" x="2484" y="1458" w="36" h="37" z="520" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL1" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1355690401" x="2412" y="1458" w="18" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2412" y="1458" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="148358644" x="1368" y="1116" w="22" h="38" z="300" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL3" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:voltmeter" id="415900313" x="972" y="990" w="38" h="24" z="60" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL1" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:voltmeter" id="2094981573" x="1206" y="990" w="38" h="24" z="80" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL2" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:inv" id="1945625496" x="2016" y="1224" w="38" h="20" z="650" orient="0" link="-1">
+          <paramlist link="-1" name="">
+            <param name="INTR" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:pgb" id="1235142424" x="2088" y="1224" w="36" h="37" z="660" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="T22" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1.0" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2052" y="1224" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="2016" y="1224" w="26" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+          <vertex x="-18" y="-54" />
+        </Wire>
+        <User classid="UserCmp" name="master:datalabel" id="693482727" x="2070" y="1224" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="T22" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="2070" y="1224" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <Frame classid="GraphFrame" id="1002681948" name="frame" x="1530" y="1404" w="378" h="954" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="x" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="1002681948" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="663918158" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="10.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="663918158" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="IL1" link="846479225" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="1779928283" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="50.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1779928283" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VL1" link="977696398" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="1632750747" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="10.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1632750747" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="IL2" link="1584603529" color="0" bold="-1" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="329948053" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="200.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="329948053" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VL2" link="1066865938" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="6036974" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="20.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="6036974" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="IL3" link="142826118" color="0" bold="-1" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="1077464251" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="200.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1077464251" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VL3" link="1047408924" color="0" bold="-1" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <Wire classid="WireOrthogonal" name="" x="1260" y="1080" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="161413835" x="1332" y="1080" w="24" h="38" z="270" orient="1" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL3" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:inductor" id="2046213050" x="972" y="1044" w="48" h="24" z="1" orient="2" defn="master:inductor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="330 [uH]" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:inductor" id="1379077537" x="1206" y="1026" w="48" h="24" z="1" orient="2" defn="master:inductor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="330 [uH]" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:capacitor" id="23831874" x="1152" y="1116" w="30" h="46" z="1" orient="3" defn="master:capacitor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="C" value="100 [uF]" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1260" y="1080" w="26" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+          <vertex x="18" y="18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1278" y="1026" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="179169608" x="1296" y="1044" w="38" h="20" z="1" orient="5" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="0" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="1" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1296" y="1026" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1368" y="1044" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1332" y="1044" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1332" y="1026" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="592618290" x="1332" y="1026" w="38" h="41" z="150" orient="3" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="3" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="0" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:inductor" id="1008543146" x="1332" y="1152" w="24" h="48" z="1" orient="3" defn="master:inductor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="330 [uH]" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:capacitor" id="237807826" x="1404" y="1080" w="46" h="30" z="1" orient="0" defn="master:capacitor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="C" value="100 [uF]" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:peswitch" id="1200308351" x="1476" y="1152" w="41" h="38" z="680" orient="6" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="3" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="0" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:peswitch" id="1315984951" x="1458" y="1188" w="20" h="38" z="1" orient="0" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="0" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="1" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1458" y="1134" w="26" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+          <vertex x="18" y="18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1458" y="1188" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1512" y="1026" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="848732513" x="1530" y="1044" w="38" h="20" z="1" orient="5" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="0" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="1" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1530" y="1026" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1080" y="918" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="1396935515" x="1098" y="936" w="38" h="20" z="1" orient="5" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="0" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="1" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1170" y="936" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1134" y="936" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1134" y="918" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" defn="master:peswitch" id="1627317724" x="1152" y="918" w="38" h="41" z="20" orient="3" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="3" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="0" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1152" y="1080" w="8" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-54" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1404" y="1080" w="98" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-90" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1440" y="1080" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1080" y="918" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1512" y="1026" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1674" y="1224" w="8" h="152" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="144" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1674" y="1188" w="8" h="170" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-162" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1692" y="1134" w="26" h="242" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="234" />
+          <vertex x="-18" y="234" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1152" y="1116" w="8" h="260" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="252" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1476" y="1188" w="8" h="188" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="180" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="990" y="1044" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="936" y="990" w="8" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="54" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="972" y="990" w="8" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="54" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1242" y="1026" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1278" y="1026" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1170" y="990" w="8" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="36" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1206" y="990" w="8" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="36" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1368" y="1116" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1368" y="1152" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1098" y="1044" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1332" y="1152" w="8" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="36" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1332" y="1224" w="8" h="152" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="144" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1170" y="1026" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-36" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="812766302" x="990" y="1044" w="38" h="24" z="130" orient="0" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IL1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1332" y="1188" w="8" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="36" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="541992385" x="1116" y="1080" w="22" h="38" z="240" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vc1" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:voltmeter" id="1368771969" x="1440" y="1062" w="38" h="22" z="250" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vc2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1116" y="1080" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1116" y="1116" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1440" y="1062" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1404" y="1062" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="51643662" x="1098" y="1026" w="38" h="24" z="100" orient="0" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS2" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:ammeter" id="1171373067" x="1386" y="1026" w="38" h="24" z="160" orient="0" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS3" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1368" y="1026" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1422" y="1026" w="62" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="54" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="1616593854" x="1260" y="1062" w="24" h="38" z="220" orient="3" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS4" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1260" y="1080" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1458" y="1152" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="837728257" x="1476" y="1134" w="24" h="38" z="310" orient="3" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS5" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1476" y="1026" w="8" h="80" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="72" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1566" y="1026" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="18" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="428033010" x="1566" y="1026" w="38" h="24" z="190" orient="0" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS6" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1602" y="1026" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="2111508671" x="630" y="1782" w="39" h="37" z="580" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS4" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1452075649" x="558" y="1782" w="28" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS4" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1782" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1423348589" x="630" y="1836" w="39" h="37" z="600" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS5" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="2005787366" x="558" y="1836" w="28" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS5" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1836" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="329123878" x="630" y="1890" w="39" h="37" z="620" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS6" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="818413232" x="558" y="1890" w="28" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="IDS6" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="558" y="1890" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <Frame classid="GraphFrame" id="1858356709" name="frame" x="1098" y="1404" w="414" h="918" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="x" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="1858356709" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="1745491558" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="20.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="true" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1745491558" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VDS4" link="1139739313" color="0" bold="0" show="255" mode="0" />
+            <Curve classid="Curve" name="VDS2" link="1284310309" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="1436273099" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="20.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1436273099" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VDS5" link="1611547182" color="0" bold="0" show="255" mode="0" />
+            <Curve classid="Curve" name="VDS3" link="669094145" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="68777305" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="20.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="68777305" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VDS6" link="1508252613" color="0" bold="0" show="255" mode="0" />
+            <Curve classid="Curve" name="VDS1" link="563337085" color="0" bold="-1" show="-1" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="880762047" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="2.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="880762047" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="IDS2" link="1417329569" color="0" bold="0" show="255" mode="0" />
+            <Curve classid="Curve" name="IDS4" link="2111508671" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="1896929951" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="5.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1896929951" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="IDS5" link="1423348589" color="0" bold="0" show="255" mode="0" />
+            <Curve classid="Curve" name="IDS1" link="1759475084" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="584753747" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="1.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="584753747" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="IDS3" link="1359479225" color="0" bold="0" show="255" mode="0" />
+            <Curve classid="Curve" name="IDS6" link="329123878" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <Wire classid="WireOrthogonal" name="" x="1098" y="936" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1098" y="918" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="417444756" x="1692" y="1044" w="24" h="38" z="260" orient="1" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Iout" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1674" y="1026" w="26" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+          <vertex x="18" y="18" />
+        </Wire>
+        <User classid="UserCmp" name="master:datalabel" id="702619683" x="1746" y="1044" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Iout" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1746" y="1044" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <Frame classid="ControlFrame" name="" x="2790" y="1188" w="72" h="126" id="1763362455" link="-1">
+          <paramlist link="-1">
+            <param name="Icon" value="-1,-1" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Controls" />
+          </paramlist>
+          <Control classid="Meter" name="" link="703009163" />
+        </Frame>
+        <Frame classid="GraphFrame" id="1266460501" name="frame" x="2934" y="1008" w="576" h="288" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="x" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="1266460501" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="923418686" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="1.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="923418686" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="Iin" link="703009163" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <Wire classid="WireOrthogonal" name="" x="1026" y="1044" w="26" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+          <vertex x="18" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1026" y="918" w="8" h="134" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="126" />
+        </Wire>
+        <Frame classid="GraphFrame" id="1170938367" name="frame" x="144" y="1422" w="540" h="288" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="x" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="1170938367" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="2041700598" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="0.020000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="2041700598" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VH" link="1512176932" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <User classid="UserCmp" name="master:pgb" id="1139660697" x="612" y="1350" w="36" h="37" z="390" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vcl" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="909777848" x="540" y="1350" w="18" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vcl" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="540" y="1350" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="561939672" x="612" y="1278" w="36" h="37" z="340" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vch" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1627515698" x="540" y="1278" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vch" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="540" y="1278" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <Frame classid="GraphFrame" id="27365768" name="frame" x="702" y="1404" w="378" h="738" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="sec" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="27365768" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="423222449" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="10.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="423222449" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="Vc1" link="1863945822" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="1002262591" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="25.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1002262591" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="Vc2" link="1820985330" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="340606173" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="100.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="340606173" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="Vch" link="561939672" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+          <Graph classid="OverlayGraph" id="381168433" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="100.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="381168433" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VH" link="1512176932" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <Frame classid="GraphFrame" id="847878520" name="frame" x="648" y="2178" w="414" h="216" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="sec" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="847878520" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="1460694546" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="0.100000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="false" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="1460694546" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="T11" link="2008461389" color="0" bold="-1" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <User classid="UserCmp" name="master:voltmeter" id="896127608" x="1098" y="1062" w="38" h="34" z="170" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1062" y="1062" w="26" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+          <vertex x="-18" y="-18" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1098" y="1062" w="44" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+          <vertex x="36" y="-36" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="563337085" x="234" y="1512" w="43" h="37" z="440" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS1" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="497873522" x="162" y="1512" w="32" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="162" y="1512" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1284310309" x="234" y="1548" w="43" h="37" z="450" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS2" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1764736944" x="162" y="1548" w="32" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS2" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="162" y="1548" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="669094145" x="234" y="1584" w="43" h="37" z="470" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS3" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="418033105" x="162" y="1584" w="32" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS3" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="162" y="1584" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1139739313" x="234" y="1620" w="43" h="37" z="490" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS4" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1906139855" x="162" y="1620" w="32" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS4" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="162" y="1620" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1611547182" x="234" y="1656" w="43" h="37" z="500" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS5" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="1875395482" x="162" y="1656" w="32" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS5" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="162" y="1656" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1508252613" x="234" y="1692" w="43" h="37" z="530" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS6" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="2067622688" x="162" y="1692" w="32" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS6" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="162" y="1692" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="1006048065" x="1152" y="972" w="38" h="34" z="50" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS1" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1116" y="972" w="44" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-36" y="0" />
+          <vertex x="-36" y="-54" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1152" y="972" w="44" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+          <vertex x="36" y="-54" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="225609997" x="1314" y="954" w="38" h="34" z="40" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS3" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1278" y="954" w="8" h="80" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="72" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1314" y="954" w="80" h="80" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="54" y="0" />
+          <vertex x="72" y="0" />
+          <vertex x="72" y="72" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="1226493431" x="1278" y="1062" w="38" h="34" z="230" orient="3" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS4" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1278" y="1062" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1314" y="1062" w="26" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+          <vertex x="18" y="18" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="1794190908" x="1548" y="1152" w="32" h="38" z="320" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS5" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1548" y="1152" w="80" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-54" />
+          <vertex x="-72" y="-54" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1548" y="1188" w="80" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="36" />
+          <vertex x="-72" y="36" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="536463056" x="1566" y="1062" w="38" h="34" z="280" orient="1" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VDS6" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1566" y="1062" w="62" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="54" y="0" />
+          <vertex x="54" y="-36" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1530" y="1062" w="26" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+          <vertex x="-18" y="-36" />
+        </Wire>
+        <User classid="UserCmp" name="master:ammeter" id="1711431058" x="810" y="1098" w="24" h="38" z="180" orient="3" defn="master:ammeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Iin" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="828" y="1044" w="26" h="44" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="-18" y="0" />
+          <vertex x="-18" y="36" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="918" y="1134" w="8" h="242" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="234" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="882" y="1134" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:capacitor" id="756041547" x="918" y="1134" w="30" h="46" z="1" orient="3" defn="master:capacitor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="C" value="470 [uF]" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="918" y="1098" w="8" h="62" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-54" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="551945727" x="882" y="1098" w="18" h="38" z="210" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vcl" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="882" y="1098" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1638" y="1170" w="8" h="152" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-144" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1638" y="1206" w="8" h="170" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="162" />
+        </Wire>
+        <User classid="UserCmp" name="master:capacitor" id="1622566148" x="1638" y="1206" w="30" h="46" z="1" orient="3" defn="master:capacitor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="C" value="470 [uF]" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1620" y="1170" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1620" y="1206" w="26" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="18" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:voltmeter" id="1298164036" x="1620" y="1170" w="22" h="38" z="330" orient="0" defn="master:voltmeter" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Vch" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:const" id="744486599" x="1260" y="990" w="67" h="17" z="90" orient="0" defn="master:const" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="" />
+            <param name="Value" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:source_1" id="1417986362" x="810" y="1134" w="35" h="74" z="1" orient="7" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Source1" />
+            <param name="Type" value="6" />
+            <param name="Grnd" value="0" />
+            <param name="Spec" value="1" />
+            <param name="Cntrl" value="1" />
+            <param name="AC" value="0" />
+            <param name="Vm" value="24 [V]" />
+            <param name="Tc" value="0.0 [s]" />
+            <param name="Ph" value="0.0 [deg]" />
+            <param name="f" value="50.0 [Hz]" />
+            <param name="P" value="0.0 [MW]" />
+            <param name="Q" value="0.0 [MVAR]" />
+            <param name="R" value="1.0 [ohm]" />
+            <param name="Rs" value="1.0 [ohm]" />
+            <param name="Rp" value="1.0 [ohm]" />
+            <param name="Lp" value="0.1 [H]" />
+            <param name="R_" value="1.0 [ohm]" />
+            <param name="L" value="0.1 [H]" />
+            <param name="C" value="1.0 [uF]" />
+            <param name="L_" value="0.1 [H]" />
+            <param name="C_" value="1.0 [uF]" />
+            <param name="CUR" value="" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:resistor" id="1623907461" x="1692" y="1134" w="29" h="56" z="1" orient="3" defn="master:resistor" link="-1">
+          <paramlist link="-1" name="">
+            <param name="R" value="100 [ohm]" />
+          </paramlist>
+        </User>
+        <Frame classid="GraphFrame" id="1099878230" name="frame" x="2178" y="1386" w="576" h="288" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Icon" value="-1,0" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Graphs" />
+            <param name="XLabel" value="x" />
+            <param name="Pan" value="false,75" />
+            <param name="markers" value="false" />
+            <param name="glyphs" value="false" />
+            <param name="ticks" value="false" />
+            <param name="grid" value="false" />
+            <param name="yinter" value="false" />
+            <param name="xinter" value="false" />
+            <param name="snapaperture" value="false" />
+            <param name="dynaperture" value="true" />
+            <param name="minorgrids" value="false" />
+            <param name="lockmarkers" value="false" />
+            <param name="deltareadout" value="false" />
+            <param name="xmarker" value="0" />
+            <param name="omarker" value="0" />
+          </paramlist>
+          <paramlist link="1099878230" name="">
+            <param name="xmin" value="0.0" />
+            <param name="xmax" value="1.0" />
+          </paramlist>
+          <Graph classid="OverlayGraph" id="278400920" link="-1">
+            <paramlist link="-1" name="">
+              <param name="title" value="" />
+              <param name="units" value="" />
+              <param name="gridvalue" value="10.000000" />
+              <param name="yintervalue" value="0.000000" />
+              <param name="grid" value="true" />
+              <param name="ticks" value="false" />
+              <param name="glyphs" value="false" />
+              <param name="yinter" value="true" />
+              <param name="xinter" value="true" />
+              <param name="marker" value="false" />
+              <param name="trigger" value="false" />
+              <param name="autocolor" value="false" />
+              <param name="invertcolor" value="false" />
+              <param name="crosshair" value="true" />
+              <param name="manualscale" value="false" />
+            </paramlist>
+            <paramlist link="278400920" name="">
+              <param name="ymin" value="-1" />
+              <param name="ymax" value="1" />
+            </paramlist>
+            <Curve classid="Curve" name="VL" link="805615758" color="0" bold="0" show="255" mode="0" />
+          </Graph>
+        </Frame>
+        <User classid="UserCmp" name="master:pgb" id="805615758" x="612" y="1386" w="36" h="37" z="420" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="526561755" x="540" y="1386" w="16" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VL" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="540" y="1386" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <User classid="UserCmp" name="master:pgb" id="1512176932" x="594" y="1458" w="36" h="37" z="430" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VH" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="618987384" x="522" y="1458" w="18" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="VH" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="522" y="1458" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+        <Frame classid="ControlFrame" name="" x="2340" y="1260" w="72" h="126" id="1043462875" link="-1">
+          <paramlist link="-1">
+            <param name="Icon" value="-1,-1" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Controls" />
+          </paramlist>
+          <Control classid="Meter" name="" link="1512176932" />
+        </Frame>
+        <Wire classid="WireOrthogonal" name="" x="1026" y="918" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1170" y="918" w="44" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="36" y="0" />
+        </Wire>
+        <Wire classid="WireOrthogonal" name="" x="1476" y="1026" w="242" h="116" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-108" />
+          <vertex x="-234" y="-108" />
+        </Wire>
+        <Frame classid="ControlFrame" name="" x="2430" y="1260" w="72" h="126" id="252184515" link="-1">
+          <paramlist link="-1">
+            <param name="Icon" value="-1,-1" />
+            <param name="state" value="1" />
+            <param name="title" value="$(GROUP) : Controls" />
+          </paramlist>
+          <Control classid="Meter" name="" link="805615758" />
+        </Frame>
+        <User classid="UserCmp" name="master:datalabel" id="1139458668" x="1314" y="1134" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="T11" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" defn="master:peswitch" id="1244354615" x="1566" y="1026" w="38" h="41" z="200" orient="3" link="-1">
+          <paramlist link="-1" name="">
+            <param name="L" value="" />
+            <param name="Type" value="3" />
+            <param name="SNUB" value="0" />
+            <param name="INTR" value="0" />
+            <param name="RON" value="0.01 [ohm]" />
+            <param name="ROFF" value="1.0E6 [ohm]" />
+            <param name="EFVD" value="0.0 [kV]" />
+            <param name="EBO" value="1.0E5 [kV]" />
+            <param name="Erw" value="1.0E5 [kV]" />
+            <param name="TEXT" value="0.0 [us]" />
+            <param name="RD" value="5000.0 [ohm]" />
+            <param name="CD" value="0.05 [uF]" />
+            <param name="PFB" value="0" />
+            <param name="I" value="" />
+            <param name="It" value="" />
+            <param name="V" value="" />
+            <param name="Ton" value="" />
+            <param name="Toff" value="" />
+            <param name="Alpha" value="" />
+            <param name="Gamma" value="" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:const" id="885863222" x="1026" y="990" w="67" h="17" z="70" orient="0" defn="master:const" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="" />
+            <param name="Value" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="844465897" x="1512" y="1188" w="22" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="T11" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1692" y="1098" w="8" h="26" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="0" y="-18" />
+        </Wire>
+        <User classid="UserCmp" name="master:const" id="1056463474" x="1080" y="882" w="67" h="17" z="10" orient="0" defn="master:const" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="" />
+            <param name="Value" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:const" id="241953019" x="1494" y="990" w="67" h="17" z="120" orient="0" defn="master:const" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="" />
+            <param name="Value" value="0" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:datalabel" id="555259995" x="1728" y="972" w="14" h="20" z="1" orient="0" defn="master:datalabel" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Iin" />
+          </paramlist>
+        </User>
+        <User classid="UserCmp" name="master:pgb" id="1580957103" x="1800" y="972" w="36" h="37" z="700" orient="0" defn="master:pgb" link="-1">
+          <paramlist link="-1" name="">
+            <param name="Name" value="Iin" />
+            <param name="Group" value="" />
+            <param name="Display" value="1" />
+            <param name="Scale" value="1000" />
+            <param name="Units" value="" />
+            <param name="mrun" value="0" />
+            <param name="Pol" value="0" />
+            <param name="Max" value="2.0" />
+            <param name="Min" value="-2.0" />
+          </paramlist>
+        </User>
+        <Wire classid="WireOrthogonal" name="" x="1728" y="972" w="80" h="8" orient="0">
+          <vertex x="0" y="0" />
+          <vertex x="72" y="0" />
+        </Wire>
+      </schematic>
+    </Definition>
+  </definitions>
+  <output name="DAB_SPS" device="EMTDC" version="2010" date="2026/07/05" time="18:34:41.000000">
+    <paramlist />
+    <domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <sample rate="2000000.0" end="1000000" />
+    </domain>
+    <analog>
+      <channel index="0" id="703009163:0" name="Iout" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="1" id="561939672:0" name="Vch" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="2" id="5215438:0" name="tasiyci" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="3" id="1139660697:0" name="Vcl" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="4" id="405409663:0" name="TTT" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="5" id="805615758:0" name="VL" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="6" id="1512176932:0" name="VH" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="7" id="563337085:0" name="VDS1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="8" id="1284310309:0" name="VDS2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="9" id="1359479225:0" name="IDS3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="10" id="669094145:0" name="VDS3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="11" id="1417329569:0" name="IDS2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="12" id="1139739313:0" name="VDS4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="13" id="1611547182:0" name="VDS5" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="14" id="1759475084:0" name="IDS1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="15" id="846479225:0" name="IL1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="16" id="1508252613:0" name="VDS6" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="17" id="1820985330:0" name="Vc2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="18" id="977696398:0" name="VL1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="19" id="1863945822:0" name="Vc1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="20" id="1584603529:0" name="IL2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="21" id="2111508671:0" name="IDS4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="22" id="1066865938:0" name="VL2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="23" id="1423348589:0" name="IDS5" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="24" id="142826118:0" name="IL3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="25" id="329123878:0" name="IDS6" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="26" id="1047408924:0" name="VL3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="27" id="1235142424:0" name="T22" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="28" id="2008461389:0" name="T11" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <channel index="29" id="1580957103:0" name="Iin" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </analog>
+    <digital />
+  </output>
+</project>
